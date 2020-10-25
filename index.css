@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body, .login-container {
+  height: 100%;
+}
+
+.login-container {
+  background-image: url("./images/bg.jpg");
+  background-position: bottom;
+  background-size: 100%;
+}
+
+.login-content {
+    width: 500px;
+    height: 410px;
+    position: absolute;
+    background: #ffffffd1;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto auto;
+    border-radius: 10px;
+}
+
+.content-logo {
+  margin: 0px auto;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background-size: 100%;
+  background-image: url("./images/logo.png");
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+.form-row {
+  padding-left: 100px;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  font-weight: bold;
+  width: 70px;
+  display: inline-block;
+  text-align-last: justify;
+}
+
+.form-row input {
+  border: 1px solid #ccc;
+  height: 20px;
+  padding: 5px;
+}
+
+.form-row #code {
+  width: 88px;
+}
+
+.form-row .code {
+  display: inline-block;
+  font-family: Arial;
+  font-style: italic;
+  color: blue;
+  font-size: 17px;
+  border: 0;
+  padding: 2px 3px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  cursor: pointer;
+  width: 70px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #dbd4de;
+}
+
+.form-row .find-password {
+  color: #0f9bec;
+  font-size: 13px;
+  margin-left: 90px;
+}
+
+.form-container .btn-row {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.form-container .btn-row button {
+  color: #fff;
+  background-color: #22a3d4;
+  border: none;
+  width: 65px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.form-container .btn-row div {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+
+.form-container .copright-row {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #5d5050;
+}
