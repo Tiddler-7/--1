@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>肇庆学院</title>
+  </head>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="./index.css" />
+  <body>
+    <div class="login-container">
+      <!-- 内容区域 -->
+      <div class="login-content">
+        <!-- 学校Logo -->
+        <div class="content-logo"></div>
+        <!-- 学校Logo -->
+
+        <!-- 表单 -->
+        <div class="form-container">
+          <div class="form-row">
+            <label>账号</label><span>：</span>
+            <input id="account" type="text" placeholder="请输入学号或工号" />
+          </div>
+
+          <div class="form-row">
+            <label>密码</label><span>：</span>
+            <input id="password" type="password" placeholder="请输入密码" />
+          </div>
+
+          <div class="form-row">
+            <label>验证码</label><span>：</span>
+            <input id="code" type="text" placeholder="请输入验证码" />
+            <div id="checkCode" class="code" onclick="createCode(4)"></div>
+          </div>
+
+          <div class="form-row">
+            <a href="https://ic.zqu.edu.cn/" class="find-password">忘记密码</a>
+          </div>
+
+          <div class="btn-row">
+            <button onclick="login()">登录</button>
+            <div>在线人数：<font>71</font></div>
+          </div>
+
+          <div class="copright-row">
+            copright@2020
+          </div>
+        </div>
+        <!-- 表单 -->
+      </div>
+      <!-- 内容区域 -->
+    </div>
+  </body>
+  <!-- 引入脚本 -->
+  <script src="./index.js"></script>
+</html>
